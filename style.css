@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0%;
+    background-color: #8B4513;
+}
+
+h1{
+    width: 20%; /* or any fixed width */
+    margin: 10px auto;
+    font-size: 53px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    margin: 0 200px;
+}
+
+.cd{
+    /* display: block; */
+    font-weight: bolder;
+    font-size: xx-large;
+    
+
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100px;
+    padding: 20px;
+    margin: 100px;
+
+}
+
+#container{
+    height: 360px;
+    width: 360px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: rgb(215, 105, 37);
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: #fff;
+    
+}
+
+.pair{
+    display: flex;
+}
+
+#crossSide{
+    background-color:  #ff0000;
+    color: #fff;
+    visibility: hidden;
+}
+#dotSide{
+    background-color:  #0000ff;
+    color: #fff;
+    visibility: hidden;
+}
+
+.cross{
+    background-image: url("./images/crossImage.png");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover;       /* Scales the image to cover the element */
+    background-position: center;  /* Centers the image in the element */
+    background-color: #f4f4f4;
+}
+.dot{
+    background-image: url("./images/dotImagge.png");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover;       /* Scales the image to cover the element */
+    background-position: center;  /* Centers the image in the element */
+    background-color: #f4f4f4;
+
+}
+
+#win{
+    display: flex;
+    justify-content: center;
+}
+
+.winClass{
+    color: #f4f4f4;
+    display: inline-block;
+    height: 90px;
+    width: 180px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#crossWin{
+    background-color: rgb(255, 0, 0);
+    /* display: none; */
+}
+#dotWin{
+    background-color: rgb(0, 0, 255);
+    /* display: none; */
+}
+#drawMessage{
+    background-color: rgb(255, 0, 255);
+    /* display: none; */
+}
+#resetButton{
+    background-color: rgb(1, 57, 1);
+    color: #f4f4f4;
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: -10px 45%;
+     
+}
+
+.winning-box {
+    background-color: goldenrod; /* Gold color for highlighting */
+    border: 2px solid #FF4500; /* Optional border for emphasis */
+    transition: background-color 0.3s, border 0.3s; /* Smooth transition */
+}

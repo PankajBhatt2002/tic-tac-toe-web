@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik-Tak-Tow</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>let's play</h1>
+        <div id="win">
+            <div id="crossWin" class="winClass">
+                red win(cross win) 
+            </div>
+            <div id="dotWin" class="winClass">
+                blue win(dot win) 
+            </div>
+            <div id="drawMessage" class="winClass">
+                !DRAW </br> No one win the game restart to play again and find the winner
+            </div>
+        </div>
+    </header>
+    <div class="content">
+
+        <div id="crossSide" class="cd">cross turn</div>
+        
+        <div id="container">
+        <div class="pair">
+        
+            <button id="box11" class="box "></button>
+            <button id="box12" class="box "></button>
+            <button id="box13" class="box "></button>
+        </div>
+        <div class="pair">
+
+            <button id="box21" class="box "></button>
+            <button id="box22" class="box "></button>
+            <button id="box23" class="box "></button>
+        </div>
+        <div class="pair">
+
+            <button id="box31" class="box "></button>
+            <button id="box32" class="box"></button>
+            <button id="box33" class="box "></button>
+        </div>
+        <!-- <div class="box cross dot"></div>
+        <div class="box cross dot"></div>
+        <div class="box cross dot"></div>
+        <div class="box cross dot"></div>
+        <div class="box cross dot"></div>
+        <div class="box cross dot"></div> -->
+    </div>
+
+    <div id="dotSide" class="cd">dot turn</div>
+
+    </div>
+    <button id="resetButton">Restart Game</button>
+    <script src="./script.js"></script>
+</body>
+
+</html>
